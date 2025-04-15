@@ -12,25 +12,66 @@ We encourage everyone to contribute, whether it's by adding a new project, enhan
 # Contents
 
 * [Robots](#robots)
-** [Mobile Robots](#mobile-robots)
-*** [Differential Drive](#differential-drive)
+  * [Mobile Robots](#mobile-robots)
+    * [Semi-Humanoid](#semi-humanoid)
+    * [Humanoid](#humanoid)
+    * [Quadrapedal](#quadrapedal)
+    * [Differential Drive](#differential-drive)
+  * [Manipulators](#manipulators)
+    * [Teleoperation/Machine Learning](#teleop)
+    * [End Effectors/Grippers](#grippers)
 * [Research Papers](#research-papers)
+    * [Human-Robot Interaction](#hri)
+    * [Motion Planning](#motion-planning)
+* [Resources](#resources)
+    * [Tools](#tools)
 
 # Robots
 
 ## Mobile Robots
-### Differential Drive
-* [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/) - ROBOTIS' iteration of the popular TurtleBot research platform, optimized for low cost and high flexibility.
+
+### Humanoid
+
+* [ToddlerBot](https://toddlerbot.github.io/) - Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation.
 * [OP3](https://emanual.robotis.com/docs/en/platform/op3/introduction/) - The latest miniature humanoid robot platform from ROBOTIS.
-* [Koch v1.1](https://github.com/jess-moss/koch-v1-1/tree/main) - Low cost manipulator and machine learning platform.
+
+### Semi-Humanoid
+
+* [BEHAVIOR Robot Suite](https://behavior-robot-suite.github.io/) - A comprehensive framework for mastering mobile whole-body manipulation across a wide variety of tasks.
+
+### Quadrapedal
+
 * [Q8 Bot](https://github.com/EricYufengWu/q8bot) - Miniature quadruped robot with size and weight comparable to a modern smartphone.
+
+### Differential Drive
+
+* [Mobile ALOHA](https://mobile-aloha.github.io/) - Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation.
+* [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/) - ROBOTIS' iteration of the popular TurtleBot research platform, optimized for low cost and high flexibility.
+
+## Manipulators
+
+### Teleoperation/Machine Learning
+
+* [ALOHA 2](https://aloha-2.github.io/) - An Enhanced Low-Cost Hardware for Bimanual Teleoperation.
+* [Koch v1.1](https://github.com/jess-moss/koch-v1-1/tree/main) - Low cost manipulator and machine learning platform.
+* [LEGATO](https://ut-hcrl.github.io/LEGATO/) - Cross-Embodiment Imitation Using a Grasping Tool.
+
+### End Effectors/Grippers
+
+* [LEAP Hand](https://v1.leaphand.com/) - Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning
 
 # Research Papers
 
-* [ALOHA 2](https://aloha-2.github.io/) - An Enhanced Low-Cost Hardware for Bimanual Teleoperation.
-* [BEHAVIOR Robot Suite](https://behavior-robot-suite.github.io/) - A comprehensive framework for mastering mobile whole-body manipulation across a wide variety of tasks.
+## Human-Robot Interaction
+
 * [ELEGNT](https://machinelearning.apple.com/research/elegnt-expressive-functional-movement) - Expressive and Functional Movement Design for Non-Anthropomorphic Robot.
-* [LEAP Hand](https://v1.leaphand.com/) - Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning
-* [Mobile ALOHA](https://mobile-aloha.github.io/) - Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation.
-* [ToddlerBot](https://toddlerbot.github.io/) - Open-Source ML-Compatible Humanoid Platform for Loco-Manipulation.
+
+## Motion Planning
+
 * [VMP](https://la.disneyresearch.com/publication/vmp-versatile-motion-priors-for-robustly-tracking-motion-on-physical-characters/) - Versatile Motion Priors for Robustly Tracking Motion on Physical Characters.
+# Resources
+
+## Tools
+
+[BAM: Better Actuator Models](https://github.com/Rhoban/bam) - Extended friction models for servo actuators to improve simulation accuracy, especially crucial for Reinforcement Learning on real robots.
+[Bottango](https://www.bottango.com/) - Animatronic animation programming software.
