@@ -9,13 +9,17 @@ In addition to projects, we've also gathered various resources aimed at helping 
 
 We encourage everyone to contribute, whether it's by adding a new project, enhancing existing content, or simply sharing feedback. The success of Awesome-DYNAMIXEL relies on the active participation of our users. So, let's work together to build a fantastic resource for all DYNAMIXEL enthusiasts!
 
-## Contents
+# Contents
 
-* [Projects](#projects)
+* [Robots](#robots)
+** [Mobile Robots](#mobile-robots)
+*** [Differential Drive](#differential-drive)
 * [Research Papers](#research-papers)
 
-# Projects
+# Robots
 
+## Mobile Robots
+### Differential Drive
 * [TurtleBot3](https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/) - ROBOTIS' iteration of the popular TurtleBot research platform, optimized for low cost and high flexibility.
 * [OP3](https://emanual.robotis.com/docs/en/platform/op3/introduction/) - The latest miniature humanoid robot platform from ROBOTIS.
 * [Koch v1.1](https://github.com/jess-moss/koch-v1-1/tree/main) - Low cost manipulator and machine learning platform.
