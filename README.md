@@ -1,4 +1,5 @@
-# awesome-dynamixel
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+
 Welcome to the Awesome-DYNAMIXEL repository - your one-stop destination for all things DYNAMIXEL! This repository is a curated collection of high-quality projects and content related to our DYNAMIXEL Smart Servos. ROBOTIS is proud to provide this platform for developers, hobbyists, and robotics enthusiasts to explore and contribute to the flourishing ecosystem of DYNAMIXEL.
 
 The aim of Awesome-DYNAMIXEL is to aggregate the best projects, content, and resources that utilize DYNAMIXEL servos. In doing so, we hope to foster a vibrant, collaborative community where users can find inspiration, learn from others, and even contribute their ideas as they navigate the world of robotics and automation.
@@ -19,7 +20,7 @@ We encourage everyone to contribute, whether it's by adding a new project, enhan
     * [Differential Drive](#differential-drive)
   * [Manipulators](#manipulators)
     * [Teleoperation/Machine Learning](#teleop)
-    * [End Effectors/Grippers](#grippers)
+    * [Dextrous Hands](#hands)
 * [Research Papers](#research-papers)
     * [Human-Robot Interaction](#hri)
     * [Motion Planning](#motion-planning)
@@ -56,9 +57,16 @@ We encourage everyone to contribute, whether it's by adding a new project, enhan
 * [Koch v1.1](https://github.com/jess-moss/koch-v1-1/tree/main) - Low cost manipulator and machine learning platform.
 * [LEGATO](https://ut-hcrl.github.io/LEGATO/) - Cross-Embodiment Imitation Using a Grasping Tool.
 
-### End Effectors/Grippers
+### Dextrous Hands
 
 * [LEAP Hand](https://v1.leaphand.com/) - Low-Cost, Efficient, and Anthropomorphic Hand for Robot Learning
+* [ORCA Hand](www.orcahand.com) - Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning.
+
+
+## Just for Fun
+
+* [StackChan](https://github.com/rt-net/stack-chan) - A super cute, palm-sized desktop robot buddy.
+* [ZenBot](https://github.com/fxmech/Zenbot) - Automated tongue drum robot.
 
 # Research Papers
 
@@ -66,12 +74,22 @@ We encourage everyone to contribute, whether it's by adding a new project, enhan
 
 * [ELEGNT](https://machinelearning.apple.com/research/elegnt-expressive-functional-movement) - Expressive and Functional Movement Design for Non-Anthropomorphic Robot.
 
+## Machine Learning
+
+* [FACTR](https://jasonjzliu.com/factr/) - Force-Attending Curriculum Training for Contact-Rich Policy Learning
 ## Motion Planning
 
 * [VMP](https://la.disneyresearch.com/publication/vmp-versatile-motion-priors-for-robustly-tracking-motion-on-physical-characters/) - Versatile Motion Priors for Robustly Tracking Motion on Physical Characters.
 # Resources
 
-## Tools
+## Third Party Software and Tools
 
-[BAM: Better Actuator Models](https://github.com/Rhoban/bam) - Extended friction models for servo actuators to improve simulation accuracy, especially crucial for Reinforcement Learning on real robots.
-[Bottango](https://www.bottango.com/) - Animatronic animation programming software.
+* [BAM: Better Actuator Models](https://github.com/Rhoban/bam) - Extended friction models for servo actuators to improve simulation accuracy, especially crucial for Reinforcement Learning on real robots.
+* [Bottango](https://www.bottango.com/) - Animatronic animation programming software.
+* [DYNAMIXEL for Unity](https://www.hatsumuv.com/jp/service/dynamixelforunity) - Plugin providing DYNAMIXEL support and simulation to the Unity game development platform.
+* [Inspexel](https://github.com/gottliebtfreitag/inspexel) - The swiss army knife for dynamixel servo motors.
+* [SYNTHIAM ARC](https://synthiam.com/) - Low-Code AI Platform for Robot Programming.
+* [DYNABAN](https://github.com/RhobanProject/Dynaban) - Unofficial custom firmware for DYNAMIXEL AX and MX series actuators.
+
+## Third Party Hardware
+* [ESP32-DynamixelHat](https://github.com/dbd/AdafruitMetroESP32-DynamixelHat) - A HAT designed for the AdaFruit Metro ESP32-S3 to communicate with DYNAMIXEL servos.
