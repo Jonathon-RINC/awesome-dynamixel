@@ -56,6 +56,7 @@ We encourage everyone to contribute, whether it's by adding a new project, enhan
 * [ALOHA 2](https://aloha-2.github.io/) - An Enhanced Low-Cost Hardware for Bimanual Teleoperation.
 * [Koch v1.1](https://github.com/jess-moss/koch-v1-1/tree/main) - Low cost manipulator and machine learning platform.
 * [LEGATO](https://ut-hcrl.github.io/LEGATO/) - Cross-Embodiment Imitation Using a Grasping Tool.
+* [OJW](https://github.com/ojw5014/lerobot_ojw.git) - Affordable teleoperation training kit.
 
 ### Dextrous Hands
 
